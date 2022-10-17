@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle Quiz</title>
+</head>
+<body>
+    <h1>Triangle Quiz</h1>
+
+    <form id="quiz-form" action="">
+    
+        <div class="question-container">
+            <p>1. Which of the following triangles has one 90 degree angle?</p>
+            <label><input type="radio" name="question1" value="Right Angled">Right Angled</label>
+            <label><input type="radio" name="question1" value="acute"> Acute</label>
+            <label><input type="radio" name="question1" value="obtuse"> Obtuse</label>
+        </div>
+        
+        <div class="question-container">
+            <p>2. What do you call a triangle whose sides are all equal?</p>
+            <label><input type="radio" name="question2" value="Equilateral">Equilateral</label>
+            <label><input type="radio" name="question2" value="Isosceles"> Isosceles</label>
+            <label><input type="radio" name="question2" value="Scalene"> Scalene</label>
+        </div>
+        
+        <div class="question-container">
+            <p>3. What is the sum of all three angles of a triangle?</p>
+             <label><input type="radio" name="question3" value="270°">270°</label>
+             <label><input type="radio" name="question3" value="180°">180°</label>
+             <label><input type="radio" name="question3" value="360°">360°</label>
+        </div>
+        
+        <div class="question-container">
+            <p>4. The side opposite to right angle in right angled triangle is called?</p>
+            <label><input type="radio" name="question4" value="Base">Base</label>
+            <label><input type="radio" name="question4" value="Perpendicular"> Perpendicular</label>
+            <label><input type="radio" name="question4" value="Hypotenuse"> Hypotenuse </label>
+        </div>
+
+        <div class="question-container">
+            <p>5. The triangles are said to be............if they are equiangular</p>
+            <label><input type="radio" name="question5" value="Congruent">Congruent</label>
+            <label><input type="radio" name="question5" value="Similar">Similar</label>
+            <label><input type="radio" name="question5" value="Scalene"> Scalene </label>
+        </div>
+        
+        <div class="question-container">
+            <p>6. If a triangle has sides equal to 5cm, 4cm and 6cm, then find its perimeter.</p>
+            <label><input type="radio" name="question6" value="15 cm">15 cm</label>
+            <label><input type="radio" name="question6" value="11 cm "> 11 cm</label>
+            <label><input type="radio" name="question6" value="12 cm"> 12 cm </label>
+        </div>
+        
+        <div class="question-container">
+            <p>7. What is the area of a trianlge, if base is 4 cm and height is 2 cm? </p>
+            <label><input type="radio" name="question7" value="4 cm^2">4 cm^2</label>
+            <label><input type="radio" name="question7" value="5 cm^2"> 5 cm^2</label>
+            <label><input type="radio" name="question7" value="6 cm^2"> 6 cm^2 </label>
+        </div>
+
+        <div class="question-container">
+            <p>8. Which of the set of three sides can't form a triangle?</p>
+            <label><input type="radio" name="question8" value="5 cm, 6 cm, 7 cm">5 cm, 6 cm, 7 cm</label>
+            <label><input type="radio" name="question8" value="5 cm, 8 cm, 15 cm"> 5 cm, 8 cm, 15 cm</label>
+            <label><input type="radio" name="question8" value="6 cm, 7 cm, 11 cm"> 6 cm, 7 cm, 11 cm </label>
+        </div>
+        
+        <div class="question-container">
+            <p>9. In a tirangle ABC, AB + BC = 12 cm, BC + CA = 14 cm and CA + AB = 18 cm. Find the radius of the circle (in cm) which has the same perimeter as the triangle:</p>
+            <label><input type="radio" name="question9" value="5/2">5/2</label>
+            <label><input type="radio" name="question9" value="7/2"> 7/2</label>
+            <label><input type="radio" name="question9" value="9/2"> 9/2 </label>
+        </div>
+        
+        <div class="question-container">
+            <p>10. The angles opposite to equal sides of an Isosceles triangle are</p>
+            <label><input type="radio" name="question10" value="Equal">Equal</label>
+            <label><input type="radio" name="question10" value=" Unequal">  Unequal</label>
+            <label><input type="radio" name="question10" value="Complementary angles"> Complementary angles </label>
+        </div>
+        
+    </form>
+
+    <button id="submit-btn">Sumbit</button>
+    <div id="output"></div>
+    <script src="quiz.js"></script>
+</body>
+</html>
