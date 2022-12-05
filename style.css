@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
+body {
+    font-family: 'Epilogue', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    max-height: 100vh;
+  
+}
+
+:root {
+    --main-color: #7743DB;
+}
+
+label, input{
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 15%;
+}
+
+input{
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+label {
+    color: var(--main-color);
+    font-weight: bold;
+
+}
+
+main {
+    margin-top: 80px;
+}
+
+
+/* Submit Button */
+
+#submit-btn:hover{
+    cursor: pointer;
+    background-color: red;
+}
+
+#submit-btn {
+    
+    background-color: var(--main-color);
+    color:white;
+    border-radius: 10px;
+    padding: 10px 25px;
+    border: none;
+    margin: 15px auto;
+}
+
+
+
+/* navbar */
+nav {
+    background-color: var(--main-color);
+    padding: 10px;
+    color: white;
+    
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    
+}
+
+nav a {
+    text-decoration: none;
+    text-align: right;
+    margin: 10px;
+    color: white;
+    
+    
+}
+nav p {
+    text-align: left;
+}
+
+.nav-pills {
+    text-align: right;
+}
+
+.link-active {
+font-weight: bolder;
+
+}
+
+.navigation p {
+    font-size: 2rem;
+}
+
+
+/*output*/
+
+#output-box {
+    font-size: 1.5rem;
+}
+
+/*footer */
+
+footer {
+    margin-top: 50px;
+}
+
+
+footer small a {
+    color: var(--main-color);
+    text-decoration: none;
+}
