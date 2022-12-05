@@ -8,11 +8,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-            <a href="index.html">Is Triangle</a>
-            <a href="quiz.html">Triangle Quiz</a>
-            <a href="hypotenuse.html">Find Hypotenuse </a>
+    <nav class="navigation">
+        <p>Fun with triangles</p>
+
+        <ul class="nav-pills">
+            <li>
+                <a class="link-active" href="index.html">Is Triangle</a>
+            </li>
+            <li>
+                <a href="quiz.html">Triangle Quiz</a>
+            </li>            
+            <li>
+                <a href="hypotenuse.html">Find Hypotenuse </a>
+            </li>
+           <li>
             <a href="area.html">Calculate Area</a>
+           </li>
+        </ul>
     </nav>
     <main>
         <h1>Is a Triangle.</h1>
@@ -25,10 +37,14 @@
         <label for="angle-three">Angle 3</label>
         <input type="number" id="angle-three" class="input-class">
 
-        <button id="btn-is-triangle">Is Triangle?</button>
-        <div id="show-output"></div>
-
+        <button id="submit-btn">Is Triangle?</button>
+        <div id="output-box"></div>
     </main>
-<script src="script.js"></script>
+
+    <footer> 
+        <p><small class="credit"> Made with ❤️ and &lt;/&gt; by <a href="https://himanshukesarwani.netlify.app/">Himanshu Kesarwani</a></small></p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

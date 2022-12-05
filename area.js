@@ -1,12 +1,12 @@
-const submitBtn = document.querySelector('#submit');
+const submitBtn = document.querySelector('#submit-btn');
 const sidesOfTriangle = document.querySelectorAll('.sides');
-const outputBox = document.querySelector('#output');
+const outputBox = document.querySelector('#output-box');
 
 console.log(submitBtn, sidesOfTriangle, outputBox);
 
-function calculateArea(){
+function calculateArea() {
     let areaOfT = 1;
-    for(let i=0;i<sidesOfTriangle.length;i++){
+    for (let i = 0; i < sidesOfTriangle.length; i++) {
         areaOfT *= Number(sidesOfTriangle[i].value);
     }
     outputBox.innerText = `Area is ${areaOfT/2}`
